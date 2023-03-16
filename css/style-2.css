@@ -1,0 +1,126 @@
+/*this affects the staff and student pages*/
+nav.navbar {
+	min-height: unset !important;
+	display: block !important;
+}
+
+.logo-container {
+	display: flex !important;
+	width: 100%;
+    display: block;
+    height: 40px;
+    /* background: #213ba5; */
+    padding: 0 !important;
+}
+
+.logo {
+    height: 40px;
+    line-height: 42px;
+    padding-left: 1em;
+}
+
+ul.nav {
+	flex-direction: column !important;
+	justify-content: center;
+	width: 100%;
+}
+
+.nav li a {
+	padding: 15px 10px;
+}
+
+
+.main-container {
+	padding-top: 45px;
+}
+
+.panel-container {
+	width: 100%;
+}
+.panele{
+	background-color: #8d0507;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 20px;
+	border: none;
+}
+.ig-area{
+	position: relative;
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
+}
+
+.dp{
+	position: absolute;
+	left: 10px;
+	top: -45px;
+}
+.rest{
+	background-color: #eee;
+	height: 100%;
+	padding: 6% 1% 1%;
+
+}
+.btn-pink{
+    background-color: #8d0507;
+    color: #fff;
+  }
+.btn-pink:hover, .active{
+    background-color: #fff;
+    transition: 0.5s ease-in;
+    border: 1px solid #8d0507;
+    color: #8d0507;
+  }
+@media (max-width: 767px) {
+	.navbar-toggle .icon-bar {
+		background-color: #eee;
+		transform-origin: 0 50%;
+	}
+
+	.navbar-toggle:focus .icon-bar {
+		background: #1d3390 !important;
+	}
+
+	.navbar-toggle:hover .icon-bar {
+		background-color: #1d3390 !important;
+	}
+
+	.navbar-toggle.open {
+		background: #ddd;
+	}
+
+	.navbar-toggle.open .icon-bar {
+		background-color: #1d3390 !important;
+	}
+
+	.navbar-toggle.open .icon-bar:nth-child(2) {
+		transform: rotateZ(38deg) translate(2px, -2px);
+	}
+
+	.navbar-toggle.open .icon-bar:nth-child(3) {
+		opacity: 0;
+	}
+
+	.navbar-toggle.open .icon-bar:nth-child(4) {
+		transform: rotateZ(-41deg) translate(1px, 3px);
+	}
+
+	.dropdown-menu {
+		position: relative !important;
+		background-color: transparent !important;
+		border: none !important;
+	}
+
+}
+
+@media (min-width: 768px) {
+	ul.nav {
+		flex-direction: row !important;
+	}
+
+	.panel-container {
+		width: 80%;
+	}
+}

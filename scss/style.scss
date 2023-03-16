@@ -1,0 +1,118 @@
+$panelhead:#ededed;//#312e3b;
+$forecolor:#5a738e; 
+$headtext:$forecolor;
+$background:#f7f7f7;
+$panelbody:#737d8c;
+@mixin button{
+	background: #51be78 !important;
+	border-color:#51be78;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+    color: #FFF;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    border-radius:0px !important;
+}
+@mixin buttonhover{
+
+}
+body{
+	margin:0px;
+	width:100%;
+	height:100%;
+	padding:0px;
+	outline:none;
+	background:$background;
+	color:$forecolor !important;
+
+}
+.logo{
+	display: initial;
+	margin: 0;
+	ine-height: inherit;
+	white-space: nowrap;
+	box-sizing: border-box;
+	font-size:25px;
+	font-weight:300px;
+	font-family:"PT Sans Caption", sans-serif;
+}
+nav{
+	border:0px !important;
+	.navbar-header{
+		background:$panelhead !important;
+	}
+	.dropdown-menu{
+		background:lighten($panelhead,5);
+	}
+	#headlinks{
+	background:$panelhead;
+	ul{
+	li{
+	a{
+		color:$forecolor !important;
+		background:lighten($panelhead,2);
+		margin-left:3px;
+	}
+	a:hover{
+	background:lighten($panelhead,4);
+
+	}
+	}
+	}
+	}
+}
+.panel{
+	border:1.2px solid darken($panelhead,10)!important;
+.panel-heading{
+	background:$panelhead !important;
+	color:$headtext;
+	border-radius:0px !important;
+}
+.panel-body{
+	background:lighten($panelhead,15) !important;
+	color:$panelbody;
+	small{
+	color:$panelbody
+	}
+}
+}
+#imgs{
+	border-radius: 40px;
+    height: 80px;
+    width: 80px;
+}
+.link-panel{
+padding:0px;
+	.list-group{
+	.list-group-item{
+	color:$panelbody;
+	transition:0.7s linear;
+	}
+	.list-group-item:hover{
+	background:#f7f7f7 !important;
+	}
+	}
+}
+.btn{
+      @include button;
+      transition:0.7s linear;
+    }
+.btn:hover{
+	@include buttonhover;
+}
+.list-group{
+margin-top:-20px;	
+}
+.list-group-item{
+	border-radius:0px !important;
+	height:47px;
+	text-transform:uppercase;
+}
+@media print {
+		body *{ visibility: hidden; }
+		#contentx *{visibility: visible;}
+		#contentx {position: absolute; top: 40px; left: 30px;}
+	}

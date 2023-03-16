@@ -1,0 +1,6 @@
+[20-Mar-2021 09:31:56 UTC] PHP Parse error:  syntax error, unexpected ':' in /home/dvcsssco/public_html/fmc/staff/printdmx.php on line 399
+[12-May-2021 09:15:49 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dvcsssco/public_html/fmc/staff/rp.php on line 43
+[02-Jul-2021 23:25:02 UTC] PHP Parse error:  syntax error, unexpected '$total' (T_VARIABLE) in /home/dvcsssco/public_html/fmc/staff/position.php on line 54
+[02-Jul-2021 23:37:17 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/dvcsssco/public_html/fmc/staff/position.php on line 67
+[03-Jul-2021 07:38:25 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/dvcsssco/public_html/fmc/staff/position.php on line 70
+[23-Sep-2021 13:48:51 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/dvcsssco/public_html/fmc/staff/editresult.php on line 133

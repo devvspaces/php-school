@@ -1,0 +1,136 @@
+.sidebar{
+    width: 15%;
+    background-color:  #8d0507;
+    color: #fff;
+    padding: 20px 10px;
+    font-size: 16px;
+    float: left;
+}
+ul li:hover, ul li:active{
+    background-color: #f12124d2;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    margin-left: -25px;
+}
+.hr{
+    border-top: 1.5px solid #fff;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 0;
+}
+ul li a:hover, ul li a:active{
+    text-decoration: none;
+    color: #fff;
+}
+.content{
+    width: 100%;
+    margin: 0;
+    background-color: rgb(248, 248, 248);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0%;
+    width: 100%;
+}
+.body{
+    /* background-color: #e61010; */
+}
+.nav .details h3{
+    padding-left: 30%;
+    color: #000;
+}
+.nav .details h3 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.details img{
+    width: 70px;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 4% 5%;
+}
+.counter .box{
+    border: 1px solid black;
+    padding: 8px;
+    width: 250px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px#000;
+}
+.counter .box:hover{
+    border: 1px solid red;
+    padding: 8px;
+    width: 250px;
+    border: none;
+    background-color: #fff;
+}
+.report{
+    margin: 10px 3%;
+    padding: 10px;
+}
+#data {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #data td, #data th {
+    border: 1px solid #ddd;
+    padding: 20px 8px;
+
+  }
+  
+  #data tr:hover {background-color: #ddd;}
+  
+  #data th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f88686;
+    color: black;
+  }
+  .btn-pink{
+    background-color: #8d0507;
+    columns: #fff;
+  }
+#chart{
+    background-color: #fff;
+    width: 90%;
+    height: 120%;
+    border-radius: 20px;
+    margin: 10px 30px;
+}
+#chart iframe{
+    width: 100%;
+}
+.report{
+    background-color: #fff;
+    width: 90%;
+    height: 40%;
+    border-radius: 20px;
+    padding: 4%;
+    margin: 3%;
+}
+.report h4{
+    color: #e61010;
+    font-weight: 600;
+}
+

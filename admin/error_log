@@ -1,0 +1,4 @@
+[04-Mar-2021 11:45:39 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/dvcsssco/public_html/fmc/admin/c_admin.php on line 38
+[21-Oct-2021 11:42:37 UTC] PHP Strict Standards:  Only variables should be passed by reference in /home/dvcsssco/public_html/fmc/admin/export.php on line 8
+[22-Dec-2021 11:56:27 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/dvcsssco/public_html/fmc/admin/mss.php on line 21
+[22-Dec-2021 11:56:27 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dvcsssco/public_html/fmc/admin/mss.php on line 22
